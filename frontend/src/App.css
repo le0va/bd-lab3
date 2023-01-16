@@ -1,0 +1,30 @@
+.App-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+}
+
+.switch-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: -8px;
+}
+
+.switch-buttons p {
+  cursor: pointer;
+  background-color: #f44336;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 135px;
+  color: white;
+}
